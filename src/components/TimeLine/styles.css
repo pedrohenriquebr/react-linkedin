@@ -1,0 +1,120 @@
+.timeline-container:last-child {
+  border-bottom-width: 0;
+}
+
+.timeline-card {
+  display: flex;
+  gap: 20px;
+}
+
+.timeline-employee-info {
+  display: flex;
+  justify-self: flex-start;
+}
+
+.timeline-container img {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.timeline-employee-info :first-child {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.timeline-employee-info :last-child {
+  font-weight: lighter;
+  font-size: 12px;
+  color: lightgray;
+  line-height: 20px;
+}
+
+.timeline-employee-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  text-align: left;
+}
+
+.timeline-post {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 10px;
+  background-color: #1b2230;
+  gap: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(68, 68, 68);
+  border-bottom-width: 0.5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 70vw;
+}
+
+.timeline-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.timeline-reactions {
+  font-size: 14px;
+  font-weight: lighter;
+  color: lightgray;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.timeline-reaction {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: lighter;
+  color: lightgray;
+}
+
+.timeline-reaction a {
+  color: #d2d6dd;
+  text-decoration: none;
+}
+
+.timeline-reaction a:hover {
+  text-decoration: underline;
+}
+
+.timeline-reaction i:hover {
+  cursor: pointer;
+}
+
+.timeline-reaction i {
+  font-size: 10px !important;
+  font-weight: lighter;
+  color: lightgray;
+  margin-right: 3px;
+}
+
+@media only screen and (max-width: 576px) {
+  .timeline-container {
+    border-radius: 5px !important;
+  }
+  .timeline-container {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .timeline-container {
+    width: 35vw;
+  }
+}
