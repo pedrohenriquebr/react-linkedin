@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-linkedin/static/css/main.af03ae68.css",
+    "main.js": "/react-linkedin/static/js/main.16f7e232.js",
+    "static/js/787.cfd8f164.chunk.js": "/react-linkedin/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/react-linkedin/index.html",
+    "main.af03ae68.css.map": "/react-linkedin/static/css/main.af03ae68.css.map",
+    "main.16f7e232.js.map": "/react-linkedin/static/js/main.16f7e232.js.map",
+    "787.cfd8f164.chunk.js.map": "/react-linkedin/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af03ae68.css",
+    "static/js/main.16f7e232.js"
+  ]
+}
